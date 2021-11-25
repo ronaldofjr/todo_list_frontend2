@@ -18,6 +18,7 @@ html {
 }
 
 .completed-card {
+	background-color: #caf0f8;
 }
 
 .completed-body {
@@ -25,11 +26,12 @@ html {
 
 .completed {
 	font-style: italic;
-	color: #cecece;
+	color:gray;
 	text-decoration: line-through;
 }
 
 .not-completed-card {
+	background-color: #48cae4;
 }
 
 .not-completed-body {
