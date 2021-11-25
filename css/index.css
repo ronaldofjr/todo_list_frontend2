@@ -1,5 +1,3 @@
-html {
-}
 
 .active {
 	font-weight: bold;
@@ -37,4 +35,8 @@ html {
 
 .not-completed {
 	font-weight: bold;
+}
+
+input[type="email"], input[type="password"]{
+	width: 30rem;
 }
