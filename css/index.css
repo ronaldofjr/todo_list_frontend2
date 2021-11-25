@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box
+}
+   
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+	
+
+#tituloNavBar{
+	font-family: 'Vollkorn', serif;
+}
 .active {
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: #ff8080;
+	background-color: #f9844a;
 	border-radius: 5px;
 }
 
 .active > .nav-link {
-	color: #004cff !important;
+	color: #277da1 !important;
 }
 
 .card {
@@ -16,6 +34,7 @@
 }
 
 .completed-card {
+	background-color:#9b9b7a88;
 }
 
 .completed-body {
@@ -23,11 +42,12 @@
 
 .completed {
 	font-style: italic;
-	color: #cecece;
+	color: gray;;
 	text-decoration: line-through;
 }
 
 .not-completed-card {
+	background-color: #f3722c;
 }
 
 .not-completed-body {
