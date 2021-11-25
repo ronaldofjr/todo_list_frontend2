@@ -1,0 +1,40 @@
+html {
+}
+
+.active {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #ff8080;
+	border-radius: 5px;
+}
+
+.active > .nav-link {
+	color: #004cff !important;
+}
+
+.card {
+	width: 18rem;
+	margin: 20px;
+}
+
+.completed-card {
+}
+
+.completed-body {
+}
+
+.completed {
+	font-style: italic;
+	color: #cecece;
+	text-decoration: line-through;
+}
+
+.not-completed-card {
+}
+
+.not-completed-body {
+}
+
+.not-completed {
+	font-weight: bold;
+}
