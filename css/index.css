@@ -1,3 +1,7 @@
+html,
+body {
+	height: 100%;
+}
 
 .active {
 	font-weight: bold;
@@ -10,33 +14,46 @@
 	color: #004cff !important;
 }
 
+.form-group {
+	margin: 10px;
+}
+
+#cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .card {
 	width: 18rem;
-	margin: 20px;
+
+	max-height: 300px !important;
 }
 
-.completed-card {
+.list-group-item {
+	font-size: 0.7em;
 }
 
-.completed-body {
+.deleted {
+	background-color: #ff9191;
+	color: white;
+	cursor: pointer;
+	font-style: normal !important;
 }
 
 .completed {
-	font-style: italic;
-	color: #cecece;
-	text-decoration: line-through;
+	cursor: pointer;
+	color: #646464;
+	background-color: #f0f0cf;
+	font-style: normal !important;
 }
 
-.not-completed-card {
+.card-completed {
+	background-color: #f2f2f2 !important;
+	font-style: italic !important;
+	color: gray !important;
 }
 
-.not-completed-body {
-}
-
-.not-completed {
-	font-weight: bold;
-}
-
-input[type="email"], input[type="password"]{
-	width: 30rem;
+.datas {
+	color: unset !important;
+	background-color: unset !important;
 }
