@@ -50,10 +50,10 @@ input[type="text"] {
 }
 
 
-
 #cards {
 	display: flex;
 	flex-wrap: wrap;
+	gap: 1.2rem;
 }
 
 .completed-card {
