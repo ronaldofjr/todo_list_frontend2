@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+#tituloNavBar {
+	font-family: 'Vollkorn', serif;
+}
+.active {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #f9844a;
+	border-radius: 5px;
+}
+
+.active > .nav-link {
+	color: #277da1 !important;
+}
+
 header li {
 	margin: 1rem;
 }
