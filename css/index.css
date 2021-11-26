@@ -30,7 +30,9 @@ body {
 	color: #277da1 !important;
 }
 
-
+header li {
+	margin: 1rem;
+}
 
 .form-group {
 	margin: 10px;
