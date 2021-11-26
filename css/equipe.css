@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +12,7 @@
 .active {
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: #f9844a;
+	background-color:  #f9844a;
 	border-radius: 5px;
 }
 
