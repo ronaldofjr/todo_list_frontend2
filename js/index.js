@@ -102,6 +102,7 @@ window.onload = async () => {
 		let body = document.createElement('div');
 		body.classList.add('card-body');
 		body.innerHTML = `${inputTarefa.value}`;
+		
 
 		// CRIANDO A LISTA UL DAS OPCOES
 		let ulOptions = document.createElement('ul');

@@ -14,40 +14,48 @@
 		<link href="css/index2.css" rel="stylesheet" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
-			<a class="navbar-brand" href="#" id="tituloNavBar" >Checkpoint Frontend II</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNav"
-				aria-controls="navbarNav"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Página 01</a>
-					</li>
-					<li class="nav-item active ">
-						<a class="nav-link" href="index2.html">Página 02</a>
-					</li>
-				</ul>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+				<a class="navbar-brand" href="#" id="tituloNavBar" >Checkpoint Frontend II</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Página 01</a>
+						</li>
+						<li class="nav-item active ">
+							<a class="nav-link" href="index2.html">Página 02</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="container-fluid">
+				<div class="row" id="cards"></div>
 			</div>
-		</nav>
+	
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+				crossorigin="anonymous"
+			></script>
+			<script src="js/index2.js"></script>
+		</main>
 
-		<div class="container-fluid">
-			<div class="row" id="cards"></div>
-		</div>
+		<footer></footer>
+	
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-			crossorigin="anonymous"
-		></script>
-		<script src="js/index2.js"></script>
 	</body>
 </html>

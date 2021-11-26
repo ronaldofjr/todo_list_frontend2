@@ -54,7 +54,9 @@ input[type="text"] {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1.2rem;
+	margin-top: 2rem;
 }
+
 
 .completed-card {
 	background-color: #9b9b7a88;
@@ -62,7 +64,6 @@ input[type="text"] {
 
 .card {
 	width: 18rem;
-
 	max-height: 300px !important;
 }
 
