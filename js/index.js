@@ -68,44 +68,6 @@ window.onload = async () => {
 
 		let newId = Math.floor(Math.random() * 999999999 + 1) + Math.floor(Math.random() * 100000 + 1);
 
-		//  li = document.createElement('div');
-		// var inputValue = document.getElementById('myInput').value;
-		// var t = document.createTextNode(inputValue);
-		// li.appendChild(t);
-		// if (inputValue === '') {
-		// 	alert('You must write something!');
-		// } else {
-		// 	document.getElementById('myUL').appendChild(li);
-		// }
-		// document.getElementById('myInput').value = '';
-
-		// var span = document.createElement('SPAN');
-		// var txt = document.createTextNode('\u00D7');
-		// span.className = 'close';
-		// span.appendChild(txt);
-		// li.appendChild(span);
-
-		// for (i = 0; i < close.length; i++) {
-		// 	close[i].onclick = function () {
-		// 		var div = this.parentElement;
-		// 		div.style.display = 'none';
-		// 	};
-		// }
-
-		let newCard = `
-            <ul class="">
-                <li class="list-group-item"></li>
-                <li class="list-group-item"></li>                
-            </ul>
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item completed">MARCAR COMO CONCLUÍDO</li>
-                <li class="list-group-item delete">DELETAR O CARD</li>                
-            </ul>
-            `;
-
 		// CRIANDO A DIV PRINCIPAL
 		let element = document.createElement('div');
 		element.classList.add('card');
@@ -179,7 +141,7 @@ window.onload = async () => {
 
 	// LIMPANDO FORMULARIO
 	function clearForm() {
-		// inputLimite.value = '';
-		// inputTarefa.value = '';
+		inputLimite.value = '';
+		inputTarefa.value = '';
 	}
 };
