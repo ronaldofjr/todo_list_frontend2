@@ -47,6 +47,16 @@ window.onload = async () => {
 
 	// VALIDANDO FORMULARIO
 	function validarForm() {
+		//estilização
+		errorTxt.style.backgroundColor = "red";
+		errorTxt.style.padding = "1rem";
+		errorTxt.style.width = "35rem";
+		errorTxt.style.textAlign = "center";
+		errorTxt.style.color = "white";
+		errorTxt.style.fontWeight ="bold";
+		errorTxt.style.borderRadius = "0.5rem";
+		errorTxt.style.margin = "0 auto";
+
 		if (inputLimite.value.length <= 0) {
 			errorTxt.innerHTML += '<div>Preencha o campo DATA LIMITE</div>';
 			return false;

@@ -30,9 +30,26 @@ body {
 	color: #277da1 !important;
 }
 
+
+
 .form-group {
 	margin: 10px;
+	text-align: center;
 }
+
+form div {
+	text-align: center;
+}
+
+input[type="date"] {
+	width: 10rem;
+}
+
+input[type="text"] {
+	width: 20rem;
+}
+
+
 
 #cards {
 	display: flex;
