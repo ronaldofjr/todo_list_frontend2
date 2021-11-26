@@ -9,11 +9,16 @@
 #tituloNavBar {
 	font-family: 'Vollkorn', serif;
 }
+
 .active {
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color:  #f9844a;
+	background-color:  #f4d35e;
 	border-radius: 5px;
+}
+#backgroundNavBar{
+	background-color: #0d3b66 !important;
+
 }
 
 .active > .nav-link {
@@ -40,7 +45,7 @@ header li {
   }
 
   footer {
-      background-color:#0D6EFD;
+      background-color:#0d3b66;
       color: white;
   }
 

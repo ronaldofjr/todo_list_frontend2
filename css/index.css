@@ -17,13 +17,18 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+#backgroundNavBar{
+	background-color: #0d3b66 !important;
+
+}
+
 #tituloNavBar {
 	font-family: 'Vollkorn', serif;
 }
 .active {
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: #f9844a;
+	background-color: #f4d35e;
 	border-radius: 5px;
 }
 
@@ -45,7 +50,7 @@ form div {
 }
 
 input[type="date"] {
-	width: 10rem;
+	width: 11rem;
 }
 
 input[type="text"] {
@@ -109,9 +114,14 @@ input[type="text"] {
 	background-color: unset !important;
 }
 
+#cadastrar{
+	background-color:#f95738 !important;
+	border-color: #f95738;
+}
+
 
 footer {
-	background-color:#0D6EFD;
+	background-color:#0d3b66;
 	color: white;
 }
 
