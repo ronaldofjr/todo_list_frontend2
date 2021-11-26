@@ -117,3 +117,9 @@ footer {
 footer p {
 	padding: 0.5rem;
 }
+
+.form_control {
+	display: block;
+  	margin-right: auto;
+  	margin-left: auto;
+}
