@@ -31,6 +31,10 @@ header li {
 	color: #277da1!important;
 }
 
+#cards {
+	justify-content: center;
+}
+
 .card {
 	width: 18rem;
 	margin: 20px;
