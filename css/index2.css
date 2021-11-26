@@ -55,3 +55,13 @@ body{
 .not-completed {
 	font-weight: bold;
 }
+
+
+footer {
+	background-color:#0D6EFD;
+	color: white;
+}
+
+footer p {
+	padding: 0.5rem;
+}

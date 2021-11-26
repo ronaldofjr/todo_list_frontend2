@@ -49,6 +49,7 @@ window.onload = async () => {
 	function validarForm() {
 		//estilização
 		errorTxt.style.backgroundColor = "red";
+		errorTxt.style.opacity = "0.5";
 		errorTxt.style.padding = "1rem";
 		errorTxt.style.width = "35rem";
 		errorTxt.style.textAlign = "center";

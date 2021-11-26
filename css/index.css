@@ -105,3 +105,13 @@ input[type="text"] {
 	color: unset !important;
 	background-color: unset !important;
 }
+
+
+footer {
+	background-color:#0D6EFD;
+	color: white;
+}
+
+footer p {
+	padding: 0.5rem;
+}
