@@ -2,53 +2,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #tituloNavBar {
-	font-family: 'Vollkorn', serif;
+  font-family: 'Vollkorn', serif;
 }
 
 .active {
-	font-weight: bold;
-	text-transform: uppercase;
-	background-color:  #f4d35e;
-	border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f4d35e;
+  border-radius: 5px;
 }
-#backgroundNavBar{
-	background-color: #0d3b66 !important;
-
+#backgroundNavBar {
+  background-color: #0d3b66 !important;
 }
 
 .active > .nav-link {
-	color: #277da1 !important;
+  color: #277da1 !important;
 }
 
 header li {
-	margin: 1rem;
+  margin: 1rem;
 }
 
-  .membro {
-    transition: all .3s ease-in-out;
-    opacity: 0.7;
-    margin: 1rem; 
-  }
-  
-  .membro:hover {
-    transform: scale(1.1);
-    opacity: 1;
-  }
+.membro {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+  margin: 1rem;
+}
 
-  .margem {
-      margin: ;
-  }
+.membro:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
 
-  footer {
-      background-color:#0d3b66;
-      color: white;
-  }
+.margem {
+  margin: ;
+}
 
-  footer p {
-      padding: 0.5rem;
-  }
+.card-body a {
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #0d3b66;
+  color: white;
+}
+
+footer p {
+  padding: 0.5rem;
+}
