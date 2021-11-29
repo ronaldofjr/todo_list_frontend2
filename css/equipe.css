@@ -45,6 +45,7 @@ header li {
 
 .card-body a {
   text-decoration: none;
+  font-weight: 500;
 }
 
 .card-body a:hover {
